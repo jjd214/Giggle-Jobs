@@ -1,3 +1,15 @@
+<script setup>
+import Navbar from '@/components/Navbar.vue'
+import Hero from '@/components/Hero.vue'
+import HomeCard from '@/components/HomeCard.vue'
+import JobListings from '@/components/JobLIstings.vue'
+</script>
+
 <template>
-  <h1 class="text-cyan-100">Hello world</h1>
+  <Navbar />
+  <Hero />
+  <HomeCard />
+  <JobListings />
 </template>
+
+<style scope></style>
