@@ -16,6 +16,8 @@ const router = createRouter({
       component: JobsView,
     },
   ],
+  linkActiveClass: 'my-active-class',
+  linkExactActiveClass: 'my-exact-active-class',
 })
 
 export default router

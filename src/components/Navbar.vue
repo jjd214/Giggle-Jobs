@@ -15,21 +15,28 @@ import { RouterLink } from 'vue-router'
           </router-link>
           <div class="md:ml-auto">
             <div class="flex space-x-2">
+              <!-- Use active class for styling -->
               <router-link
                 to="/"
-                class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Home</router-link
+                class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                active-class="bg-green-900"
               >
+                Home
+              </router-link>
               <router-link
                 to="/jobs"
                 class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
-                >Jobs</router-link
+                active-class="bg-green-900"
               >
+                Jobs
+              </router-link>
               <router-link
                 to="/jobs/create"
                 class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
-                >Add Job</router-link
+                active-class="bg-green-900"
               >
+                Add Job
+              </router-link>
             </div>
           </div>
         </div>
