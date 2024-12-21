@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router'
               <!-- Use active class for styling -->
               <router-link
                 to="/"
-                class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
                 active-class="bg-green-900"
               >
                 Home
