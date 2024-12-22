@@ -31,7 +31,7 @@ import { RouterLink } from 'vue-router'
                 Jobs
               </router-link>
               <router-link
-                to="/jobs/create"
+                to="/jobs/add"
                 class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
                 active-class="bg-green-900"
               >
