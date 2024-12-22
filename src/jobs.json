@@ -85,20 +85,6 @@
       }
     },
     {
-      "id": "0fea",
-      "type": "Full-Time",
-      "title": "Laravel Developer",
-      "description": "The main duties of a Laravel developer include writing code, fixing bugs, and adding new features to applications. He/she may also be required to work with databases and perform various tasks such as data migrations.",
-      "salary": "$150K - $175K",
-      "location": "Pasay, City",
-      "company": {
-        "name": "Accenture",
-        "description": "qwe",
-        "contactEmail": "john@email.com",
-        "contactPhone": "09394331559"
-      }
-    },
-    {
       "id": "1206",
       "type": "Full-Time",
       "title": "Laravel Developer",
