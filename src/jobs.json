@@ -97,20 +97,6 @@
         "contactEmail": "john@email.com",
         "contactPhone": "09394331559"
       }
-    },
-    {
-      "id": "77ed",
-      "type": "Full-Time",
-      "title": "Next Dev",
-      "description": "qwe",
-      "salary": "$80K - $90K",
-      "location": "Pasay, City",
-      "company": {
-        "name": "Accenture",
-        "description": "asdas",
-        "contactEmail": "john@email.com",
-        "contactPhone": "123456789"
-      }
     }
   ]
 }

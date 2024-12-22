@@ -18,11 +18,14 @@ const state = reactive({
   isLoading: true,
 })
 
-const deleteJobHandler = async () => {
+const deleteJobHandler = async (title) => {
   try {
-    await axios.delete('/api/jobs/' + jobId)
-    toast.success('Job deleted successfully.')
-    router.push('/jobs')
+    const confirmation = window.confirm(`Are you sure you want to delete this ${title} job?`)
+    if (confirmation) {
+      await axios.delete('/api/jobs/' + jobId)
+      toast.success('Job deleted successfully.')
+      router.push('/jobs')
+    }
   } catch (error) {
     console.error('Error deleting job', error)
     toast.error('Something went wrong')
@@ -100,7 +103,7 @@ onMounted(async () => {
               >Edit Job</router-link
             >
             <button
-              @click="deleteJobHandler"
+              @click="deleteJobHandler(state.job.title)"
               class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
             >
               Delete Job
